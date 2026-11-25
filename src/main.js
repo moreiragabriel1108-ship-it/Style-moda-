@@ -2,7 +2,7 @@ import './style.css';
 
 const products = [
   { id: 1, name: 'Camiseta Oversized', category: 'Masculino', price: 59.90, oldPrice: 79.90, tag: 'MAIS VENDIDO', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=85', description: 'Algodão macio, caimento amplo e estilo urbano.' },
-  { id: 2, name: 'Calça Cargo', category: 'Masculino', price: 119.90, oldPrice: null, tag: 'NOVIDADE', image: 'https://images.unsplash.com/photo-151_value?auto=format&fit=crop&w=900&q=85', description: 'Modelagem moderna para compor seu visual.' },
+  { id: 2, name: 'Calça Cargo', category: 'Masculino', price: 119.90, oldPrice: null, tag: 'NOVIDADE', image: 'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=900&q=85', description: 'Modelagem moderna para compor seu visual.' },
   { id: 3, name: 'Vestido Casual', category: 'Feminino', price: 89.90, oldPrice: null, tag: '', image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=900&q=85', description: 'Leve, versátil e perfeito para o dia a dia.' },
   { id: 4, name: 'Tênis Street', category: 'Calçados', price: 159.90, oldPrice: 189.90, tag: 'OFERTA', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85', description: 'Conforto e personalidade em cada passo.' },
   { id: 5, name: 'Moletom Premium', category: 'Masculino', price: 129.90, oldPrice: null, tag: '', image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85', description: 'Aquele conforto que combina com tudo.' },
