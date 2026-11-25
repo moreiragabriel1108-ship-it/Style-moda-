@@ -116,7 +116,7 @@ function checkout() {
   const lines = products.filter(p => state.cart[p.id]).map(p => `• ${p.name} — ${state.cart[p.id]}x — ${money(p.price * state.cart[p.id])}`);
   const message = encodeURIComponent(`Olá! Quero fazer este pedido na Style Modas:\n\n${lines.join('\n')}\n\nTotal dos produtos: ${money(cartTotal())}\n\nComo faço para combinar pagamento e entrega?`);
   // Configure o número oficial da loja antes de publicar.
-  const whatsappNumber = '5585999423526';
+  const whatsappNumber = '5555999423526';
   if (!whatsappNumber) {
     alert('Pedido montado! O número de WhatsApp da loja ainda precisa ser configurado pelo proprietário antes da publicação.');
     return;
